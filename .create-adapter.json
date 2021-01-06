@@ -1,0 +1,33 @@
+{
+	"cli": true,
+	"adapterName": "icecast_server",
+	"title": "Icecast Server",
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "multimedia",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "push",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "soiza",
+	"authorGithub": "soiza",
+	"authorEmail": "salzer.lukas@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "no",
+	"creatorVersion": "1.31.0"
+}

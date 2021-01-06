@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "icecast_server",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Icecast Server",
+		"titleLang": {
+			"en": "Icecast Server",
+			"de": "Icecast Server",
+			"ru": "Icecast Server",
+			"pt": "Icecast Server",
+			"nl": "Icecast Server",
+			"fr": "Icecast Server",
+			"it": "Icecast Server",
+			"es": "Icecast Server",
+			"pl": "Icecast Server",
+			"zh-cn": "Icecast Server"
+		},
+		"desc": {
+			"en": "icecast_server",
+			"de": "icecast_server",
+			"ru": "icecast_server",
+			"pt": "icecast_server",
+			"nl": "icecast_server",
+			"fr": "icecast_server",
+			"it": "icecast_server",
+			"es": "icecast_server",
+			"pl": "icecast_server",
+			"zh-cn": "icecast_server"
+		},
+		"authors": [
+			"soiza <salzer.lukas@gmail.com>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "icecast_server.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/soiza/ioBroker.icecast_server/master/admin/icecast_server.png",
+		"readme": "https://github.com/soiza/ioBroker.icecast_server/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "multimedia",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
